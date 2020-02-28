@@ -12,14 +12,10 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License. -->
 
-<!-- Uses the Basic Activity Template which includes this menu.
-Want to minimize unrelated busy work where students just remove code.
-So, we are leaving the template code in. -->
-
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.android.roomwordssample.MainActivity">
+    tools:context="com.android.example.roomwordssample.MainActivity">
     <item
         android:id="@+id/clear_data"
         android:orderInCategory="100"

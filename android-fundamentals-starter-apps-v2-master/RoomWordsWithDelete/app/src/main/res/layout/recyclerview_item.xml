@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <!-- Copyright 2018 Google Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,17 +14,18 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License. -->
 
-<!-- Uses the Basic Activity Template which includes this menu.
-Want to minimize unrelated busy work where students just remove code.
-So, we are leaving the template code in. -->
-
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.android.roomwordssample.MainActivity">
-    <item
-        android:id="@+id/clear_data"
-        android:orderInCategory="100"
-        android:title="@string/clear_all_data"
-        app:showAsAction="never" />
-</menu>
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/text_view_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        tools:text="placeholder text" />
+</LinearLayout>
+
